@@ -1,0 +1,12 @@
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page h1 {
+    color: #032541;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #01b4e4;
+}

@@ -1,0 +1,29 @@
+.home-page {
+    text-align: center;
+    padding: 2rem;
+}
+
+.home-page h1 {
+    color: #032541;
+    margin-bottom: 1rem;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.quick-link {
+    padding: 0.8rem 1.5rem;
+    background-color: #01b4e4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.quick-link:hover {
+    background-color: #032541;
+}

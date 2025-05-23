@@ -1,0 +1,16 @@
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.loading, .error {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.error {
+    color: #e74c3c;
+}
